@@ -110,13 +110,15 @@ class Sound:
             if snd_started and num_silent > 32:
                 break
         
+        
         stream.stop_stream()
         stream.close()
         self.audio.terminate()
-
+        
         self.normalize()
         self.trim()
         self.add_silence(0.5)
+        
 
 
     def record_audio(self):
