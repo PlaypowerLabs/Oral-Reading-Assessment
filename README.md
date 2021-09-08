@@ -2,7 +2,8 @@
 
 ![image](https://raw.githubusercontent.com/Playpowerlabs/Oral-Reading-Assessment/master/.github/images/img_1.png)
 
-Oral Reading Assessment app provides a way for the students' to improve their reading skills. Reading is an essential skill to become successful in any discipline.  
+Reading is an essential skill to become successful in any discipline. Oral Reading Assessment app provides a way for the students' to improve their reading skills. At present, the application supports indian english and hindi languages. Students are required to read the text with clear pronouncation.  
+Then students can see their transcribed audio, and other key metrics under the results section.
 
 ## Setting up the project
 
@@ -49,7 +50,7 @@ $ streamlit run app.py
 
 - Choose the language that you want to practice speaking and click `Show Passage` button.
 
-- Wait for the speech-to-text engine to load for the selected language and then click `record` button and start reading the passage.
+- Wait for the speech-to-text engine to load for the selected language and then click `Record` button and start reading the passage. 
 
 - Under the results section you can view your transcribed audio and some key metrics for assessing the reading ability like `WER`, `WPM` and `Confidence`.
 
