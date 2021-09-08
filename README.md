@@ -2,8 +2,7 @@
 
 ![image](https://raw.githubusercontent.com/Playpowerlabs/Oral-Reading-Assessment/master/.github/images/img_1.png)
 
-Reading is an essential skill to become successful in any discipline. Oral Reading Assessment app provides a way for the students' to improve their reading skills. At present, the application supports indian english and hindi languages. Students are required to read the text with clear pronouncation.  
-Then students can see their transcribed audio, and other key metrics under the results section.
+Reading is an essential skill to become successful in any discipline. Oral Reading Assessment app provides a way for the students' to improve their reading skills. At present, the application supports indian english and hindi languages. Students are required to read the text with clear pronouncation. Then students can see their transcribed audio, and other key metrics under the results section.
 
 ## Setting up the project
 
