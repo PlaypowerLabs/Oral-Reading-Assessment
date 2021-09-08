@@ -3,3 +3,7 @@ __pycache__/
 models/
 *.wav
 .streamlit/
+record_2.py
+record_3.py
+sample_app.py
+Dockerfile

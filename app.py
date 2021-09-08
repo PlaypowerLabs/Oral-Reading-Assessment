@@ -1,6 +1,6 @@
 import streamlit as st
 from record import Sound
-from setup import ENGLISH_PASSAGE_LIST, HINDI_PASSAGE_LIST
+from passage_list import ENGLISH_PASSAGE_LIST, HINDI_PASSAGE_LIST
 from settings import WAVE_OUTPUT_FILE
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import torch
