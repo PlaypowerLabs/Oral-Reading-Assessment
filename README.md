@@ -22,15 +22,15 @@ $ cd Oral-Reading Assessment
 - Use the below command to download all the python libraries and some dependencies required for the application to run:
 
 ```console
-pip install --no-cache-dir -r requirements.txt
-python -m install spacy download en_core_web_sm
+$ pip install --no-cache-dir -r requirements.txt
+$ python -m install spacy download en_core_web_sm
 ```
 
 - Download models (Total Size - 2.3GB) using the below command:
 
 ```console
-chmod +x data_download.sh
-./data_download.sh
+$ chmod +x data_download.sh
+$ ./data_download.sh
 ```
 
 This would create `models` folder inside the `Oral-Reading-Assessment` repo. To manually download the data, click the below link:
@@ -42,7 +42,7 @@ https://oral-reading-assessment-app-models.s3.us-east-2.amazonaws.com/models.zip
 - Execute the python file `app.py` using streamlit:
 
 ```console
-streamlit run app.py
+$ streamlit run app.py
 ```
 
 - The webapp is launched in your browser and opened automatically.
@@ -51,7 +51,7 @@ streamlit run app.py
 
 - Wait for the speech-to-text engine to load for the selected language and then click `record` button and start reading the passage.
 
-- 
+- Under the results section you can view your transcribed audio and some key metrics for assessing the reading ability like `WER`, `WPM` and `Confidence`.
 
 
 
